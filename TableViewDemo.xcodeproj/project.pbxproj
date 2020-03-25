@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB0CC2DC242B992600451FD3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0CC2DB242B992600451FD3 /* TableViewController.swift */; };
+		CB0CC2DE242B997800451FD3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0CC2DD242B997800451FD3 /* TableViewCell.swift */; };
+		CB0CC2E0242B9EC800451FD3 /* ProfileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0CC2DF242B9EC800451FD3 /* ProfileData.swift */; };
 		CB13DD42242B975600412B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB13DD41242B975600412B32 /* AppDelegate.swift */; };
 		CB13DD44242B975600412B32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB13DD43242B975600412B32 /* SceneDelegate.swift */; };
-		CB13DD46242B975600412B32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB13DD45242B975600412B32 /* ViewController.swift */; };
 		CB13DD49242B975600412B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB13DD47242B975600412B32 /* Main.storyboard */; };
 		CB13DD4B242B975B00412B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB13DD4A242B975B00412B32 /* Assets.xcassets */; };
 		CB13DD4E242B975B00412B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB13DD4C242B975B00412B32 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB0CC2DB242B992600451FD3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CB0CC2DD242B997800451FD3 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CB0CC2DF242B9EC800451FD3 /* ProfileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileData.swift; sourceTree = "<group>"; };
 		CB13DD3E242B975600412B32 /* TableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB13DD41242B975600412B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB13DD43242B975600412B32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB13DD45242B975600412B32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB13DD48242B975600412B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB13DD4A242B975B00412B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB13DD4D242B975B00412B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,9 +60,11 @@
 		CB13DD40242B975600412B32 /* TableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CB0CC2DF242B9EC800451FD3 /* ProfileData.swift */,
 				CB13DD41242B975600412B32 /* AppDelegate.swift */,
 				CB13DD43242B975600412B32 /* SceneDelegate.swift */,
-				CB13DD45242B975600412B32 /* ViewController.swift */,
+				CB0CC2DB242B992600451FD3 /* TableViewController.swift */,
+				CB0CC2DD242B997800451FD3 /* TableViewCell.swift */,
 				CB13DD47242B975600412B32 /* Main.storyboard */,
 				CB13DD4A242B975B00412B32 /* Assets.xcassets */,
 				CB13DD4C242B975B00412B32 /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB13DD46242B975600412B32 /* ViewController.swift in Sources */,
 				CB13DD42242B975600412B32 /* AppDelegate.swift in Sources */,
+				CB0CC2E0242B9EC800451FD3 /* ProfileData.swift in Sources */,
+				CB0CC2DE242B997800451FD3 /* TableViewCell.swift in Sources */,
+				CB0CC2DC242B992600451FD3 /* TableViewController.swift in Sources */,
 				CB13DD44242B975600412B32 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.developers.TableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.developers.TableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
